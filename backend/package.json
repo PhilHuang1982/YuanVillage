@@ -1,0 +1,23 @@
+{
+  "name": "yuanjiaxiang-backend",
+  "version": "0.1.0",
+  "description": "元家乡 2050 backend — Express + PersonaAgent",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "gray-matter": "^4.0.3",
+    "openai": "^4.87.3"
+  },
+  "devDependencies": {
+    "vitest": "^3.1.3"
+  }
+}

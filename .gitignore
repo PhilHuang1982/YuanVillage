@@ -1,0 +1,32 @@
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
+dist/
+build/
+.vite/
+.next/
+vault/raw/**/*.pdf
+vault/raw/**/*.mp4
+vault/raw/**/*.mov
+ref/VoiceRecord/
+ref/*.mp3
+ref/**/*.mp3
+frontend/public/assets/audio/*.mp3
+vault/persona-cards/_archive/
+vault/scripts/ocr/.venv/
+vault/raw/longxun/ocr-sample/_pages/
+vault/raw/longxun/ocr-full/_pages/
+vault/raw/longxun/zaomengji.txt
+
+# IDE / 工具配置
+.claude/
+vault/.obsidian/
+
+# 临时脚本
+fix_json*.py
+
+# 重复资产目录（副本）
+*副本*/

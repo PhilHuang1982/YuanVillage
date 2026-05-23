@@ -1,0 +1,1841 @@
+绿手指乡
+客松参赛议题表单
+农场背景
+本农场采用生态有机种植模式，蔬菜与水果并行运营，各板块处理品类超过10种，两者种植流程与周期差异显著。正式员工能熟练使用智能手机；另有临时乡村人员协助田间作业，不纳入系统操作范围。
+企业有明确需求的是
+生产种植部、采配部、市场部三个部门，目标是实现高效流畅的跨部门协作。
+当前数字化起点较低：团队有数据记录意识，但记录内容、完整度、存储位置均未系统梳理，没有数字化系统的建设和使用经验。本次是首次系统性地推进数据化。组织和人员需要与系统同步成长，任何工具都需匹配当前成熟度，在真实使用中逐步演化，而非一步到位。
+四大议题总览
+
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:left w:w="10" w:type="dxa"/>
+          <w:right w:w="10" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1931"/>
+        <w:gridCol w:w="6847"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="0092149F" w14:paraId="2A8A1761" w14:textId="77777777">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="0FCB81ED" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>议题一
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="1B6F05A1" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>田间数字工具 — 让农场第一次拥有“地里正在发生什么”的完整数字化描述
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="5E55479E" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>议题二
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="1FA8BB15" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>农事工单工具 — 让任务管理从微信语音变成透明可追溯的数字流程
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="293A2AE1" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>议题三
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="48CA56C7" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>种植计划工具 — 让种植决策从“拍脑袋”走向“看数据”，计划自动分解为可执行节点
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="0A16E512" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>议题四
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="6BBB8207" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>市场服务工具 — 让市场部的知识从个人记忆变成组织的数字资产，服务实现智能化
+议题一：田间数字孪生工具
+让农场第一次拥有“地里正在发生什么”的完整数字化描述。
+覆盖场景
+
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:left w:w="10" w:type="dxa"/>
+          <w:right w:w="10" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1931"/>
+        <w:gridCol w:w="6847"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="0092149F" w14:paraId="31ED0E53" w14:textId="77777777">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="2361C741" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>S2 地块与种植档案
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="6F6D14AF" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>种植主管需维护各地块的品种、播种日、各阶段天数、预估产量。目前信息散落在人脑和零散记录中，蔬菜与水果档案混杂。期望建立分类电子档案，档案能自动驱动状态流转。
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="4B130B43" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>S3 日常农事记录
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="75B728FF" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>正式员工在浇水、施肥、除虫等作业后需记录地块、操作内容、投入品。目前有零散记录但内容和位置不明，有机合规追溯困难。期望建立手机端极简录入。
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="4A99B6C0" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>S4 采收量与剩余追踪
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="63FDA7FD" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>采收后需知实际重量和地块剩余产量。目前靠纸笔记录、心算剩余，准确性无从考证。期望录入重量后自动关联并计算剩余。
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="43D02CD7" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>S1 采收清单与库存视图
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="171C4A64" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>采收主管需每日获知可采收地块；销售需查询某菜品供应能力；采配部需了解可发货量。目前完全依赖电话和记忆。期望基于同一数据源自动生成清单和查询视图。
+核心问题
+现状与痛点
+四个场景构成同一条数据链，但当前完全断裂：地块种了什么、何时种、预计何时采，信息存在人脑或零散记录中，从未结构化关联；日常操作有记录，但记了什么、存在哪里、完整度如何无人能说清，数据彼此孤立；想知“今天能采什么”“某菜能供多少”，必须打电话、等人翻记录、凭记忆拼凑，响应慢且一致性无保障。
+农场对“地里正在发生什么”缺乏系统性的数字化描述。在数据基础近乎为零、团队无系统使用经验的起点上，首要问题不是“整合分散数据”，而是“先建立可信的数据采集体系，再让数据自然关联呈现”。
+理想状态
+•  
+种植主管录入一次档案，系统自动关联品种阶段天数并驱动状态流转
+•  
+正式员工在地头操作，选地块即可录入，系统自动关联档案和阶段信息
+•  
+采收重量录入后，剩余产量即时计算，无需翻表对账
+•  
+任何授权人员查询供应能力，系统基于同一数据源即时聚合呈现，并标注数据更新时间
+核心矛盾
+如何在团队无数字化经验、数据基础几乎为零的起点上，设计一条足够简单但完整的数据链——让档案、记录、查询不是孤立的三个功能，而是“录入一次、处处关联、自然呈现”的正反馈循环。关键不在于功能多全，而在于让团队第一次感受到“记了就有用”，从而迈出数字化的第一步。
+需要理解的现实
+•  
+蔬菜和水果的节奏不同：蔬菜几十天一茬，线性生长；水果跨年度管理，周期复杂。工具需同时容纳两种时间逻辑，不可混用。
+•  
+有机种植不只是“不用农药”：每笔投入品需可追溯源头。工具不仅是记录，更是在帮助农场讲好品质故事，而非增加一道填表工序。
+•  
+数据一开始是不完整的：历史档案可能缺失，今日记录可能漏掉。工具需在数据残缺时就能产生价值，并随数据积累自然增强。
+•  
+三个部门，同一数据，三种视角：生产部关心“哪块地该采了”，采配部关心“今天能发多少货”，市场部关心“能卖什么、能稳供多久”。它们需要同一数据源的不同聚合视图。
+体验探索方向
+•  
+种植主管录入一次档案后，系统自动跟踪生长阶段并推送采收提醒。自动流转的边界在哪里——哪些节点需人工确认？
+•  
+员工在地头选地块、确认操作，几秒完成。但“几秒”是几秒？阳光下屏幕是否清晰？手上有泥时能否操作？
+•  
+采收重量录入后立刻显示剩余产量，这种即时反馈是否是激励持续记录的关键？还是大家更在意其他东西？
+•  
+销售查询供应能力时，是看到数字就够了，还是需要一个更直接的“可接单/不可接单”判断？
+评判维度
+
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:left w:w="10" w:type="dxa"/>
+          <w:right w:w="10" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2197"/>
+        <w:gridCol w:w="6591"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="0092149F" w14:paraId="55DD39B0" w14:textId="77777777">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="2A7A65" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="1130D4CD" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>维度
+
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="2A7A65" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="3E621BD9" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>说明
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="046FDBF4" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>简单性
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="79AB58D4" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>从未用过系统的人能否在田间自然完成记录？操作是否适配阳光、泥手、匆忙的环境？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="3058144B" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>正反馈
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="757641B5" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>记录后能否立刻感受到“有用”？还是用处要以后才体现？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="42D816E2" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>数据链完整
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="4F85AD5C" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>档案、记录、查询是否形成闭环，而非孤立模块？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="26C0E7ED" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>容错与演化
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="1E5A81C2" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>数据不完整时能用吗？数据积累后能自动变得更好用吗？
+议题二：农事工单工具
+让任务管理从微信语音变成透明可追溯的数字流程。
+覆盖场景
+
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:left w:w="10" w:type="dxa"/>
+          <w:right w:w="10" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1931"/>
+        <w:gridCol w:w="6847"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="0092149F" w14:paraId="3C3ECBB4" w14:textId="77777777">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="6FC0241F" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>S5 任务下达与进度跟踪
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="457E778B" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>管理者制定农事计划并下发给正式员工。目前完全通过微信或口头传达，任务信息零散，执行过程不透明，历史无从追溯。期望建立工单化任务管理。
+核心问题
+现状与痛点
+任务管理目前依赖微信和口头对话：消息淹没在聊天记录里，可能漏看，管理者需反复确认；任务是否接收、开始、完成，管理者只能靠追问或实地查看；错过最佳农时才发现，有机专项任务时间窗口严格，遗漏风险高；事后无据可查，责任不清。
+理想状态
+•  
+管理者创建工单时自动关联地块与品种信息
+•  
+正式员工手机端查看、认领、完成反馈，不再翻聊天记录
+•  
+管理者通过看板一屏掌握所有任务进度，超期自动预警
+•  
+采配部可直接查看采收任务进度安排运力
+•  
+历史工单自动留存，随时可追溯
+核心矛盾
+如何让“多一步操作”的收益远大于麻烦。对管理者，换来“不用追问了”；对执行者，换来“不用翻聊天记录找了”；对跨部门，换来“信息自己流过来”。工具必须用体验证明价值，而非靠行政命令推行。
+需要理解的现实
+•  
+微信不是敌人，是需要超越的习惯：理解微信满足的核心需求（张嘴就说、有记录可翻），针对其缺陷（淹没、无法确认、无全局视角、难追溯）设计。工具不是替代微信，而是提供一种在“传达信息”上更可靠、几乎同样自然的体验。
+•  
+工具不是管理者的独角戏：执行者必须也感受到好处——不用怕漏任务、不用翻记录、做完有痕迹不被冤枉，否则工具会从内部被抵触。
+•  
+信息需要跨部门流动：采配部需要采收进度，不应再打电话问，而应是同一个工单的不同视角。
+•  
+从小处开始生长：初期解决“任务不漏、进度可见”，当可靠性被感受到之后，再逐步叠加统计与分析功能。
+体验探索方向
+•  
+管理者多花的十秒，能否换来之后不再反复追问的安全感？
+•  
+执行者打开工具，今天该做什么是否一目了然？完成确认是否比打字回微信更快？
+•  
+超期预警的提醒方式，是变色、弹窗还是其他？怎样做到“提醒而不骚扰”？
+•  
+采配部看到的进度视图，需要精确到百分比还是只需“预计完成时间”？
+评判维度
+
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:left w:w="10" w:type="dxa"/>
+          <w:right w:w="10" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2197"/>
+        <w:gridCol w:w="6591"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="0092149F" w14:paraId="68BA786F" w14:textId="77777777">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="2A7A65" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="05B5D667" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>维度
+
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="2A7A65" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="0297AB58" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>说明
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="37F02275" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>吸引力
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="7AD9B49F" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>习惯用微信发语音的人，是否愿意为这个工具多操作一步？这一步换来了什么？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="17305149" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>透明度
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="2CF466A6" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>管理者能否不再追问，就能看清所有任务的真实进度？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="01DAD9B2" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>可靠性
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="777B4735" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>任务会不会漏？快到期的任务能否自然引起注意？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="28FA47AB" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>可追溯
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="7A729D79" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>三个月后，能否轻松查到某块地某天的操作者和完成时间？
+议题三：种植计划工具
+让种植决策从“拍脑袋”走向“看数据”，计划自动分解为可执行节点。
+覆盖场景
+
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:left w:w="10" w:type="dxa"/>
+          <w:right w:w="10" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1931"/>
+        <w:gridCol w:w="6847"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="0092149F" w14:paraId="796DD572" w14:textId="77777777">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="7C7CACBE" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>S7 种植计划制定
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="48891513" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>经营团队决定下季种什么、种多少。目前凭经验，市场反馈散落无法影响决策。期望引入数据辅助决策，并能在计划确定后自动逆向推算农事节点，生成可执行任务。
+核心问题
+现状与痛点
+•  
+决策纯靠经验：无系统化数据支撑，种多种少凭感觉。
+•  
+市场反馈断层：消费者偏好停留在市场部个人印象中，无法传导到生产决策，造成供需错配。
+•  
+计划到执行脱节：人工反推农事节点易出错、遗漏，传达失真。
+•  
+长周期作物风险高：有机种植调整余地小，水果数年才量产，试错成本极高。
+不是“数据不准”，而是“根本没有用数据辅助决策的习惯”。这个习惯需要慢慢培养
+。
+理想状态
+•  
+决策者能看到消费者反馈趋势、历史种植与销量汇总、地块可用情况。
+•  
+确定“品种、交付日、交付量”后，工具自动逆向推算各农事节点。
+•  
+推算结果可直接导入工单工具，缩短从决策到执行的距离。
+•  
+市场部的声音第一次在决策时被“看见”。
+核心矛盾
+决策模式从经验转向数据辅助，是组织演化过程。如何在初期先建立信息和数据的存在感——让反馈被看见、历史被汇总、计划到执行的链路变短——让决策者逐步习惯“看着数据讨论”，而非期待工具上线就改变决策方式。
+需要理解的现实
+•  
+工具是辅助，不是替代：做决定的是人。数据是补充，不应压制
+人
+的经验和直觉。
+•  
+数据一开始是稀薄的：历史记录不全，反馈刚开始积累。工具需让有限数据也呈现价值——一条不完整的曲线也能引发讨论。
+•  
+蔬菜和水果的时间感不同：蔬菜一季一调，水果今年决策影响数年收成。工具需同时容纳两种时间尺度。
+•  
+演化，不是革命：第一阶段实现“有数据可看”，第二阶段“数据辅助判断”，第三阶段才可能“数据驱动建议”。
+体验探索方向
+•  
+数据呈现成什么样，才能让讨论自然发生，而不是让大家更困惑？
+•  
+逆向排程的结果是需要“一键生成的完美方案”，还是“给出参考、人做调整”的弹性框架？
+•  
+排程结果导出工单时，是否需要经过确认环节？
+评判维度
+
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:left w:w="10" w:type="dxa"/>
+          <w:right w:w="10" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2197"/>
+        <w:gridCol w:w="6591"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="0092149F" w14:paraId="2856BC94" w14:textId="77777777">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="2A7A65" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="57199F1F" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>维度
+
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="2A7A65" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="080883C2" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>说明
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="0E987D8F" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>辅助性
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="5AA7FE91" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>工具是提供参考、展开对话，还是试图替人做决定？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="7C642C06" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>数据呈现
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="4850A2E4" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>有限、不完美的数据是否呈现得清楚、诚实、能引发讨论？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="61853702" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>计划到执行
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="56C7DBAA" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>从决策确定到生成可执行的农事节点，链路是否顺畅？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="7F5517F4" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>可演化
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="18F30652" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>工具能否随着数据积累和信任建立，一起成长？
+议题四：市场服务工具
+让市场部的知识从个人记忆变成组织的数字资产，服务实现智能化。
+覆盖场景
+
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:left w:w="10" w:type="dxa"/>
+          <w:right w:w="10" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1931"/>
+        <w:gridCol w:w="6847"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="0092149F" w14:paraId="7B9263AC" w14:textId="77777777">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="6021BA0B" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>S8 消费者反馈收集
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="2B7D87D8" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>市场部在日常接触中收集到消费者对品质、偏好的反馈。目前存在于个人印象中，无系统记录分析。期望建立轻量反馈采集和汇总机制，为种植计划提供输入。
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1100" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="1BA2165F" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="1A3C34"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>S9 智能客服与药膳推荐
+
+          <w:tcPr>
+            <w:tcW w:w="3900" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="56F40BD4" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60" w:line="300" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>消费者常问基础问题和食疗菜谱。目前人工重复回答，推荐与农场实际产品脱节。期望自动应答高频问题，并基于症状推荐与农场货源关联的药膳菜谱。
+核心问题
+现状与痛点
+•  
+消费者反馈：停留在印象和聊天记录中，无法传导到生产决策。
+•  
+客服问答：答案在人脑，高频问题重复回答，一致性无保障。
+•  
+推荐与业务脱节：健康咨询给通用菜谱，常推荐农场无法供应的食材，体验打折。
+•  
+有机价值未体现：每批菜的来源与过程故事，在服务中完全缺失。
+理想状态
+•  
+反馈在自然触点被轻量采集，自动汇总为趋势报告，输入种植决策。
+•  
+高频问题自动应答，新问题人工回答后自动沉淀入知识库，知识库随使用生长。
+•  
+药膳推荐优先使用自产有机食材，若无则依次调用合作农户产品或平台精选，并清晰标注来源，确保推荐可兑现。
+•  
+服务中自然融入食材的来源故事，让消费者感知有机种植的差异化价值。
+核心矛盾
+知识资产建设需要投入，但团队无经验。如何让沉淀知识不成为额外负担，而是服务流程的副产品——反馈在沟通中顺手采集，问答在服务中自动积累——让知识库像生命一样自己
+生长。
+需要理解的现实
+•  
+不能增加负担：采集反馈和沉淀知识必须融入日常工作流，如果每次多花几分钟，在繁忙现场就活不了。
+•  
+推荐必须可兑现：给客户推荐的菜谱，食材必须是当下确实能供应的。农场能提供的不仅是自产，还包括平台精选产品和合作农户的货源。推荐时应呈现来源层次（自产优先、合作次之、平台补充），并保持与库存数据的呼吸同步，承诺即能交付，避免从“期待”变成“失望”。
+•  
+有机种植是值得讲述的故事：每批菜的产地、过程、农人，是真实可感的差异化价值。工具应在服务中自然呈现这些故事，而非生硬推销。
+•  
+知识库应像生命一样生长：从20-30个常见问答起步就能用，每一通人工服务都是浇灌，新问答如新叶。不需要一次性整理完整森林。
+体验探索方向
+•  
+市场部人员跟客后顺手标记标签，这个“顺手”在什么设备、什么场景下最自然？
+•  
+自动应答的边界在哪？何时必须无缝转人工？
+•  
+推荐结果中，食材来源的信息如何呈现才能既透明又不干扰选择？
+•  
+“为什么推荐这个”和“推荐什么”对消费者同样重要吗？
+评判维度
+
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:left w:w="10" w:type="dxa"/>
+          <w:right w:w="10" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2197"/>
+        <w:gridCol w:w="6591"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="0092149F" w14:paraId="6D0358BC" w14:textId="77777777">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="2A7A65" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="019DCA02" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>维度
+
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="2A7A65"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="2A7A65" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="43962EFA" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="60" w:after="60"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>说明
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="0F37D6D5" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>轻量性
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="1C5F4468" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>采集反馈和沉淀知识，是增加了负担还是像呼吸一样自然？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="2575C806" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>自助生长
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="641C8FEF" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>知识库能否随日常使用自然丰富，而非一次性整理后停止更新？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="08666CE2" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>产品绑定与可兑现
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="nil"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="7E8157F4" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>推荐结果是否与农场真实可调度货源关联？承诺的能否兑现？
+
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1250" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+            </w:tcBorders>
+            <w:shd w:val="clear" w:color="F0F5F3" w:fill="auto"/>
+          </w:tcPr>
+          <w:p w14:paraId="5971BA2F" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="2A7A65"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>差异化呈现
+
+          <w:tcPr>
+            <w:tcW w:w="3750" w:type="pct"/>
+            <w:tcBorders>
+              <w:top w:val="nil"/>
+              <w:left w:val="nil"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="D0DDD8"/>
+              <w:right w:val="nil"/>
+            </w:tcBorders>
+          </w:tcPr>
+          <w:p w14:paraId="487DE19B" w14:textId="77777777" w:rsidR="0092149F" w:rsidRDefault="00000000">
+            <w:pPr>
+              <w:spacing w:before="50" w:after="50" w:line="280" w:lineRule="auto"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t>有机种植的故事是否在服务中被消费者感知？

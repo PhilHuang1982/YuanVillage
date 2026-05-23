@@ -1,0 +1,64 @@
+<svg viewBox="40 20 120 150" xmlns="http://www.w3.org/2000/svg" aria-label="龙圣子 头像">
+  <defs>
+    <linearGradient id="lxp-robe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a6f5b"/>
+      <stop offset="100%" stop-color="#2d3e30"/>
+    </linearGradient>
+    <linearGradient id="lxp-inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f1e6cf"/>
+      <stop offset="100%" stop-color="#dac9a4"/>
+    </linearGradient>
+    <linearGradient id="lxp-skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4dbb8"/>
+      <stop offset="100%" stop-color="#e1bd91"/>
+    </linearGradient>
+    <radialGradient id="lxp-cheek" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e89a7a" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#e89a7a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 肩 / 衣领 -->
+  <path d="M 78 145 Q 100 168 122 145 L 122 175 L 78 175 Z" fill="url(#lxp-inner)" stroke="#1b1612" stroke-width="2.5"/>
+  <path d="M 50 155 L 78 145 L 100 175 L 122 145 L 150 155 L 150 175 L 50 175 Z" fill="url(#lxp-robe)" stroke="#1b1612" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="90" y="130" width="20" height="20" fill="url(#lxp-skin)" stroke="#1b1612" stroke-width="2"/>
+
+  <!-- 后发 -->
+  <path d="M 55 90 Q 50 55 70 40 Q 100 25 130 40 Q 150 55 145 95 L 145 130 Q 140 115 130 110 Q 125 105 122 100 L 78 100 Q 75 105 70 110 Q 60 115 55 130 Z" fill="#8a8576" stroke="#1b1612" stroke-width="2.5"/>
+  <path d="M 68 55 Q 82 45 96 48" stroke="#f5ecd7" stroke-width="2.5" fill="none" opacity=".55" stroke-linecap="round"/>
+
+  <!-- 脸 -->
+  <ellipse cx="100" cy="95" rx="34" ry="40" fill="url(#lxp-skin)" stroke="#1b1612" stroke-width="2.5"/>
+  <ellipse cx="66" cy="95" rx="6" ry="9" fill="url(#lxp-skin)" stroke="#1b1612" stroke-width="2"/>
+  <ellipse cx="134" cy="95" rx="6" ry="9" fill="url(#lxp-skin)" stroke="#1b1612" stroke-width="2"/>
+
+  <!-- 发髻 -->
+  <ellipse cx="100" cy="38" rx="14" ry="11" fill="#6b6356" stroke="#1b1612" stroke-width="2"/>
+  <path d="M 86 36 Q 100 25 114 36" stroke="#1b1612" stroke-width="1.5" fill="none"/>
+
+  <!-- 眉 -->
+  <path d="M 76 82 Q 85 78 94 82" stroke="#3a2f25" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 106 82 Q 115 78 124 82" stroke="#3a2f25" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- 眼 -->
+  <path d="M 78 95 Q 86 100 94 95" stroke="#1b1612" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 106 95 Q 114 100 122 95" stroke="#1b1612" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="86" cy="96" r="1.2" fill="#1b1612"/>
+  <circle cx="114" cy="96" r="1.2" fill="#1b1612"/>
+
+  <!-- 腮红 -->
+  <ellipse cx="78" cy="110" rx="9" ry="5" fill="url(#lxp-cheek)"/>
+  <ellipse cx="122" cy="110" rx="9" ry="5" fill="url(#lxp-cheek)"/>
+
+  <!-- 鼻 -->
+  <path d="M 100 100 L 99 113" stroke="#3a2f25" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+  <!-- 嘴 -->
+  <path d="M 93 119 Q 100 124 107 119" stroke="#3a2f25" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+
+  <!-- 须 -->
+  <path d="M 91 122 Q 88 132 86 138" stroke="#6b6356" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M 109 122 Q 112 132 114 138" stroke="#6b6356" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M 100 124 Q 98 135 96 142" stroke="#6b6356" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M 100 124 Q 102 135 104 142" stroke="#6b6356" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+</svg>

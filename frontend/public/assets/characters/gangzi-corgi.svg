@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 12" shape-rendering="crispEdges">
+  <!-- 耳朵尖 row 0 -->
+  <rect x="1" y="0" width="1" height="1" fill="#8B4513"/>
+  <rect x="8" y="0" width="1" height="1" fill="#8B4513"/>
+  <!-- 耳朵 row 1 -->
+  <rect x="0" y="1" width="3" height="1" fill="#8B4513"/>
+  <rect x="7" y="1" width="3" height="1" fill="#8B4513"/>
+  <!-- 耳根 + 头顶 row 2 -->
+  <rect x="0" y="2" width="1" height="1" fill="#8B4513"/>
+  <rect x="1" y="2" width="2" height="1" fill="#E8C08A"/>
+  <rect x="3" y="2" width="1" height="1" fill="#8B4513"/>
+  <rect x="6" y="2" width="1" height="1" fill="#8B4513"/>
+  <rect x="7" y="2" width="2" height="1" fill="#E8C08A"/>
+  <rect x="9" y="2" width="1" height="1" fill="#8B4513"/>
+  <!-- 头部 row 3 -->
+  <rect x="1" y="3" width="1" height="1" fill="#8B4513"/>
+  <rect x="2" y="3" width="6" height="1" fill="#DEB887"/>
+  <rect x="8" y="3" width="1" height="1" fill="#8B4513"/>
+  <!-- 眼睛 row 4 -->
+  <rect x="1" y="4" width="1" height="1" fill="#8B4513"/>
+  <rect x="2" y="4" width="1" height="1" fill="#DEB887"/>
+  <rect x="3" y="4" width="1" height="1" fill="#1A0A00"/>
+  <rect x="4" y="4" width="2" height="1" fill="#DEB887"/>
+  <rect x="6" y="4" width="1" height="1" fill="#1A0A00"/>
+  <rect x="7" y="4" width="1" height="1" fill="#DEB887"/>
+  <rect x="8" y="4" width="1" height="1" fill="#8B4513"/>
+  <!-- 脸颊 row 5 -->
+  <rect x="1" y="5" width="1" height="1" fill="#8B4513"/>
+  <rect x="2" y="5" width="6" height="1" fill="#DEB887"/>
+  <rect x="8" y="5" width="1" height="1" fill="#8B4513"/>
+  <!-- 鼻子 row 6 -->
+  <rect x="2" y="6" width="1" height="1" fill="#8B4513"/>
+  <rect x="3" y="6" width="1" height="1" fill="#DEB887"/>
+  <rect x="4" y="6" width="2" height="1" fill="#1A0A00"/>
+  <rect x="6" y="6" width="1" height="1" fill="#DEB887"/>
+  <rect x="7" y="6" width="1" height="1" fill="#8B4513"/>
+  <!-- 白色胸口 row 7 -->
+  <rect x="3" y="7" width="4" height="1" fill="#FFFEF0"/>
+  <!-- 身体 rows 8–9 -->
+  <rect x="2" y="8" width="6" height="2" fill="#CD853F"/>
+  <!-- 腿 row 10 -->
+  <rect x="1" y="10" width="2" height="1" fill="#CD853F"/>
+  <rect x="7" y="10" width="2" height="1" fill="#CD853F"/>
+  <!-- 爪子 row 11 -->
+  <rect x="1" y="11" width="2" height="1" fill="#8B4513"/>
+  <rect x="7" y="11" width="2" height="1" fill="#8B4513"/>
+</svg>
