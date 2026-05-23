@@ -17,108 +17,388 @@
  */
 
 export const longxunScripts = {
-  /* 首次见面 — 使用龙圣子 persona card 的 first_mes */
+  /* ── 第一问：来龙潭的目的 ── */
   open: {
     id: 'open',
     speaker: 'longxun',
     name: '龙圣子',
     sub: '龙潭村守护者',
-    text: '你跨过凤凰台那块龙潭里的石头，就踏入了一条我守了六百年的溪。\n\n水声不变，石板路变过几回。说吧，你找这儿是为了什么？',
+    text: '你跨过凤凰台那块龙潭里的石头，就踏入了一条我守了六百年的溪。\n\n水声不变，石板路变过几回。说吧——你来这儿，主要是为了什么？',
     choices: [
-      { label: '我想了解这个村', next: 'history' },
-      { label: '想找个有意思的主理人', next: 'match_intro' },
-      { label: '我就随便看看', next: 'wander' },
+      { label: '安静创作，做自己的东西', next: 'q2_creator', hint: '创作者' },
+      { label: '远程办公，找个协作社区', next: 'q2_nomad', hint: '数字游民' },
+      { label: '探索村落生态，找自己的生态位', next: 'q2_explorer', hint: '潜在云村民' },
+      { label: '就随便看看', next: 'wander' },
     ],
   },
 
-  /* —— 路线 A：村史 —— */
-  history: {
-    speaker: 'longxun',
-    name: '龙圣子',
-    sub: '村史叙述',
-    text: '龙潭原是废村。\n\n2015 年林正碌带着画笔进村，从此画家、纪录片导演、做面包的、修古琴的，一拨拨来了。2022 年 138 数字游民基地启用，云上也住下了一些人。\n\n现在村里大约住着五六十位「新村民」，每一位都把自己的生活方式做成一个空间。',
-    choices: [
-      { label: '新村民和老村民处得好吗？', next: 'history_villagers' },
-      { label: '什么样的人会留下来？', next: 'history_stay' },
-      { label: '我想去看看具体的空间', next: 'match_intro' },
-    ],
-  },
-  history_villagers: {
-    speaker: 'longxun',
-    name: '龙圣子',
-    text: '处得很好。\n\n老村民教新村民认野菜、辨方言；新村民教老村民拍短视频、做线上分享。村小学的孩子下午会跑去小梅桩的院子里玩，桩主从不赶他们。\n\n这是龙潭最珍贵的事——人跟人，没有客气。',
-    choices: [
-      { label: '我想去小梅桩看看', next: 'route_xiaomei' },
-      { label: '再聊聊村里的人', next: 'history_stay' },
-    ],
-  },
-  history_stay: {
-    speaker: 'longxun',
-    name: '龙圣子',
-    text: '留下来的人，都不是为「逃离都市」来的。\n\n他们是带着自己原本的手艺、原本的爱好来的——只是把它换了一个时区、一种节奏。\n\n梅桩主原是上海的律师。她说：「人生到某个节点，时间比金钱重要。」 [c-002]',
-    choices: [
-      { label: '她现在做什么？', next: 'route_xiaomei' },
-      { label: '我也想换种节奏', next: 'match_intro' },
-    ],
-  },
-
-  /* —— 路线 B：访客画像识别 —— */
-  match_intro: {
+  /* ── 第二问：时长 ── */
+  q2_creator: {
     speaker: 'longxun',
     name: '龙圣子',
     sub: '为你匹配',
-    text: '我不推销，只帮你匹配。\n\n你来龙潭，最想要的是什么？',
+    text: '好，创作的人在这儿最自在。\n\n打算待多久？',
     choices: [
-      { label: '安静的地方，做点自己的创作', next: 'match_creator', hint: '创作者' },
-      { label: '远程办公，住一两个月', next: 'match_nomad', hint: '数字游民' },
-      { label: '只想躲两天，喝茶发呆', next: 'match_rest', hint: '短期休整' },
-      { label: '想看看主理人怎么过日子', next: 'match_curious', hint: '观察者' },
+      { label: '三五天，短住感受一下', next: 'plan_creator_short' },
+      { label: '两周到一个月', next: 'plan_creator_mid' },
+      { label: '想长住，还没定', next: 'plan_creator_long' },
     ],
   },
-  match_creator: {
+
+  q2_nomad: {
     speaker: 'longxun',
     name: '龙圣子',
-    sub: '路由建议',
-    text: '那你大概率是奔着小梅桩去的。\n\n桩主自己也是创作者：画画、写歌、拍短片。她的院子里不开空调，不挂平台，只接「能懂这把椅子为什么放这个角落」的人。 [c-003]\n\n要不要去她门口看看？',
+    sub: '为你匹配',
+    text: '数字游民，好。\n\n计划在村里待多久？',
     choices: [
-      { label: '好，带我去小梅桩', next: 'route_xiaomei' },
-      { label: '还有别的吗？', next: 'match_more' },
+      { label: '两周左右', next: 'plan_nomad_short' },
+      { label: '一个月以上，想长住', next: 'plan_nomad_long' },
     ],
   },
-  match_nomad: {
+
+  q2_explorer: {
     speaker: 'longxun',
     name: '龙圣子',
-    sub: '路由建议',
-    text: '138 数字游民基地。\n\n2022 年启用，独栋，有共享办公区、Wi-Fi、咖啡、健身房。住下来的人来自北上广深、巴厘岛、清迈——他们在这里组建临时同事。\n\n不过那栋楼今天我还带不了你进去；你可以先在地图上看看它。',
+    sub: '为你匹配',
+    text: '好眼光，这个村值得慢慢走。\n\n你更感兴趣哪类？',
     choices: [
-      { label: '好的，先聊别的', next: 'match_more' },
-      { label: '还是想看看小梅桩', next: 'route_xiaomei' },
+      { label: '艺术/创作空间', next: 'plan_creator_short' },
+      { label: '数字游民社区', next: 'plan_nomad_short' },
+      { label: '都想看看', next: 'plan_explorer' },
     ],
   },
-  match_rest: {
+
+  /* ── 预制方案卡片（toolResult → ItineraryCard，即时出现，不走 API） ── */
+  plan_creator_short: {
     speaker: 'longxun',
     name: '龙圣子',
-    text: '短期休整，我不太推荐你来龙潭。\n\n这里没有大堂、没有礼宾，主理人不会喊你「欢迎光临」。但如果你愿意把「躲两天」改成「待两天看看一种生活」——小梅桩的茶会上周刚办过一次，下周还有。',
+    sub: '龙潭村守护者',
+    text: '好，我帮你选了一个地方。',
+    toolResult: {
+      type: 'propose_itinerary',
+      data: {
+        guest_profile: {
+          type: '创作者 · 短住',
+          key_needs: ['寻找安静创作环境', '3-5天深度体验', '感受主理人真实生活', '远离标准化民宿'],
+        },
+        recommended_spaces: [
+          {
+            space_name: '小梅桩',
+            space_slug: 'xiaomeizhuang',
+            reason: '主推 ✦ 前律师主理人梅桩主，画画写歌种花。二楼东房对花园，早上鸟叫下午斜光，不挂平台只接气质对的人。带一本正在读的书，去敲门。',
+          },
+          {
+            space_name: '138数字游民基地',
+            space_slug: 'dao-longtan',
+            reason: '补充 · 第4天可去转转，感受数字游民社区生态，无需入住。',
+          },
+        ],
+        recommended_persons: [
+          {
+            person_name: '梅桩主',
+            person_space_slug: 'xiaomeizhuang',
+            connect_reason: '前律师，现在画画写歌种花。聊聊她为什么放弃高薪来龙潭，对创作者很有启发。',
+          },
+        ],
+        itinerary_outline: `第1天 · 抵达安顿
+顺着青石路走到小梅桩，敲门入住。下午在院子里坐坐，不急着"做事"，先感受节奏。傍晚随梅桩主浇浇花，聊聊各自的来路。
+
+第2天 · 进入状态
+上午创作，东边来的光斜过院子。下午探索村落：廊桥、田垄、竹林。傍晚村小学的孩子会来院子玩，看热闹就好。
+
+第3天 · 深度交流
+和梅桩主聊聊她的故事——从律师到龙潭，中间发生了什么。她不是每天都愿意说，但如果聊起来，你会有收获。
+
+第4天 · 扩展探索
+去138数字游民基地转转，看看在这里长住的人在做什么，感受另一种在龙潭生活的方式。
+
+第5天 · 收尾离开
+带一样你在这里创作的东西离开——哪怕只是一段文字、一张手绘、或一个新的想法。`,
+        not_recommended: ['期待标准化服务和前台接待', '需要每天出去景区打卡', '计划开车走多个城市'],
+      },
+    },
+    choices: [{ label: '还有别的空间吗？', next: 'plan_more' }],
+  },
+
+  plan_creator_mid: {
+    speaker: 'longxun',
+    name: '龙圣子',
+    sub: '龙潭村守护者',
+    text: '两周的话，我给你安排两个地方。',
+    toolResult: {
+      type: 'propose_itinerary',
+      data: {
+        guest_profile: {
+          type: '创作者 · 两周',
+          key_needs: ['沉浸式创作', '两周长住', '创作与社交结合', '建立工作节奏'],
+        },
+        recommended_spaces: [
+          {
+            space_name: '小梅桩',
+            space_slug: 'xiaomeizhuang',
+            reason: '主推 ✦ 前半程首选，先住3-5天感受节奏。气质对了可以留下来长住，桩主会问你三个问题。',
+          },
+          {
+            space_name: '138数字游民基地',
+            space_slug: 'dao-longtan',
+            reason: '补充 · 后半程转移阵地，有共享办公和来自各地的游民，适合需要交流和协作资源的创作者。',
+          },
+        ],
+        recommended_persons: [
+          {
+            person_name: '梅桩主',
+            person_space_slug: 'xiaomeizhuang',
+            connect_reason: '在龙潭扎根多年的创作者，聊聊如何在乡村维持创作状态。',
+          },
+          {
+            person_name: '浅予',
+            person_space_slug: 'dao-longtan',
+            connect_reason: '138基地的运营者，了解基地的社区活动和当前协作机会。',
+          },
+        ],
+        itinerary_outline: `第1-3天 · 小梅桩安顿
+入住，感受节奏。与梅桩主深度交流，了解她的创作故事。慢慢走熟村里的路，找到属于自己的角落。
+
+第4-7天 · 沉浸创作
+进入自己的工作状态。龙潭的节奏分明：上午创作，下午游走，晚上整理。不受打扰，专注当下。
+
+第8-10天 · 转移138基地
+移至138数字游民基地，接触来自各地的游民。感受协作氛围，交流彼此的工作方式。
+
+第11-14天 · 深度融入
+参与基地的社区活动（方言破冰、读书会、四海家宴）。找到志同道合的人，聊聊未来合作的可能。`,
+        not_recommended: ['完全无法接受断网或网速慢', '需要每天出入城区'],
+      },
+    },
+    choices: [{ label: '先在地图上转转', next: 'wander' }],
+  },
+
+  plan_creator_long: {
+    speaker: 'longxun',
+    name: '龙圣子',
+    sub: '龙潭村守护者',
+    text: '长住不急，先来一周试试水。',
+    toolResult: {
+      type: 'propose_itinerary',
+      data: {
+        guest_profile: {
+          type: '创作者 · 长住',
+          key_needs: ['彻底换节奏', '找到长期生态位', '在地扎根', '与主理人社区融合'],
+        },
+        recommended_spaces: [
+          {
+            space_name: '小梅桩',
+            space_slug: 'xiaomeizhuang',
+            reason: '主推 ✦ 有长租候选，桩主会先问你三个问题：愿不愿意早起浇花、孩子跑进来会不会赶走、断网三天能干嘛。答对了，你就留下来了。',
+          },
+          {
+            space_name: '138数字游民基地',
+            space_slug: 'dao-longtan',
+            reason: '备选 · 如果需要更稳定的办公设施和游民社区，138基地也支持按月长租。',
+          },
+        ],
+        recommended_persons: [
+          {
+            person_name: '梅桩主',
+            person_space_slug: 'xiaomeizhuang',
+            connect_reason: '2019年从上海辞职来龙潭，是龙潭长住创作者的代表。聊聊她如何在这里建立起自己的节奏。',
+          },
+        ],
+        itinerary_outline: `第1-5天 · 试住感受
+先按短住逻辑来，不要带太多行李，不要签任何承诺。感受龙潭的真实节奏，看看自己能不能适应。
+
+第6-10天 · 找到位置
+如果节奏对了，开始认真想：你在这里能做什么？你的技能和这里的人有没有交点？
+
+第11天以后 · 决定是否留下
+带着这个问题去和桩主再聊一次。她会问你那三个问题。答案会告诉你自己适不适合留下来。`,
+        not_recommended: ['把龙潭当"充电站"短暂逃离', '还没想清楚自己要做什么就来"找答案"'],
+      },
+    },
     choices: [
-      { label: '那我看看小梅桩', next: 'route_xiaomei' },
-      { label: '再想想', next: 'match_more' },
+      { label: '也想了解138基地', next: 'plan_nomad_long' },
+      { label: '先在地图上转转', next: 'wander' },
     ],
   },
-  match_curious: {
+
+  plan_nomad_short: {
     speaker: 'longxun',
     name: '龙圣子',
-    text: '好奇心是好东西。\n\n龙潭村适合「带着问题来」的人。带着问题去找梅桩主，她会跟你聊为什么放弃律师；带着问题去 138 基地，听听一个数字游民怎么决定下个月去哪里。\n\n你想先见谁？',
+    sub: '龙潭村守护者',
+    text: '这个方向，有个地方很适合你。',
+    toolResult: {
+      type: 'propose_itinerary',
+      data: {
+        guest_profile: {
+          type: '数字游民',
+          key_needs: ['远程办公', '寻找协作伙伴', '体验乡村数字生活', '两周左右'],
+        },
+        recommended_spaces: [
+          {
+            space_name: '138数字游民基地',
+            space_slug: 'dao-longtan',
+            reason: '主推 ✦ SeeDao运营，独栋，共享办公、Wi-Fi、咖啡、健身房。住着来自北上广深和东南亚的游民，有临时组队的氛围，是龙潭数字游民的核心据点。',
+          },
+          {
+            space_name: '小梅桩',
+            space_slug: 'xiaomeizhuang',
+            reason: '补充 · 两处风格完全不同。抽出半天去喝杯茶，感受另一种在地生活方式，视角会很不一样。',
+          },
+        ],
+        recommended_persons: [
+          {
+            person_name: '浅予',
+            person_space_slug: 'dao-longtan',
+            connect_reason: '138基地空间运营者，了解活动安排、长住政策和当前在住游民构成。',
+          },
+          {
+            person_name: '梅桩主',
+            person_space_slug: 'xiaomeizhuang',
+            connect_reason: '在地主理人，提供游民社区之外的龙潭视角，了解村子真实的人文生态。',
+          },
+        ],
+        itinerary_outline: `第1-2天 · 安顿落地
+入住138基地，熟悉公共设施。和浅予聊聊当前基地的状态，了解在住游民的构成和近期活动。
+
+第3天 · 探索全村
+走一遍龙潭村，感受它的真实尺度。顺道去小梅桩喝杯茶，感受另一种在地生活方式。
+
+第4-7天 · 进入工作节奏
+利用共享办公空间远程工作。白天专注，晚上参与基地的社区活动，认识同住的游民。
+
+第8-14天 · 深度融入
+参与方言破冰、四海家宴、读书会等活动。找到潜在的协作伙伴，探索在龙潭合作一件事的可能。`,
+        not_recommended: ['需要高强度视频会议和稳定大带宽', '对泥土气息和虫鸣无法接受'],
+      },
+    },
+    choices: [{ label: '先在地图上转转', next: 'wander' }],
+  },
+
+  plan_nomad_long: {
+    speaker: 'longxun',
+    name: '龙圣子',
+    sub: '龙潭村守护者',
+    text: '长住的话，138基地是首选。',
+    toolResult: {
+      type: 'propose_itinerary',
+      data: {
+        guest_profile: {
+          type: '数字游民 · 长住',
+          key_needs: ['按月长租', '稳定工作环境', '建立本地人脉', '在地扎根探索'],
+        },
+        recommended_spaces: [
+          {
+            space_name: '138数字游民基地',
+            space_slug: 'dao-longtan',
+            reason: '主推 ✦ 适合按月长租，设施齐全。SeeDao社区运营，有稳定的游民社群和活动体系，是长期数字游民的理想据点。',
+          },
+          {
+            space_name: '小梅桩',
+            space_slug: 'xiaomeizhuang',
+            reason: '补充 · 长住期间可以深入认识在地主理人群体，小梅桩是了解龙潭人文生态的好窗口。',
+          },
+        ],
+        recommended_persons: [
+          {
+            person_name: '浅予',
+            person_space_slug: 'dao-longtan',
+            connect_reason: '138基地的核心运营者，长住政策、社区规则、当前项目都可以直接问她。',
+          },
+          {
+            person_name: '梅桩主',
+            person_space_slug: 'xiaomeizhuang',
+            connect_reason: '龙潭最资深的"新村民"之一，了解乡村真实生态和长住者的心路历程。',
+          },
+        ],
+        itinerary_outline: `第1-7天 · 试住一周
+按短住逻辑来，不带太多行李。感受龙潭的真实节奏，判断自己能不能在这里长期工作和生活。
+
+第2-3周 · 找到工作节奏
+如果第一周感觉对了，开始认真安顿。建立规律的工作节奏，认识村里的常驻居民。
+
+第1个月以后 · 深度嵌入
+参与村里的长期项目和社区活动。开始思考：你的技能和龙潭这个社区有没有交点？你能在这里创造什么？`,
+        not_recommended: ['把长住当"旅行延长版"而非真实生活', '期待乡村提供城市一样的基础设施'],
+      },
+    },
     choices: [
-      { label: '小梅桩主', next: 'route_xiaomei' },
-      { label: '暂时不想见人', next: 'wander' },
+      { label: '先去小梅桩感受一下', next: 'route_xiaomei' },
+      { label: '先在地图上转转', next: 'wander' },
     ],
   },
-  match_more: {
+
+  plan_explorer: {
     speaker: 'longxun',
     name: '龙圣子',
-    text: '村里还在陆续新增空间。\n面包房、古琴坊、酒酿小铺……\n\n这些今天我还没法带你进去。你先去小梅桩走一圈，回来我再为你画一张更详细的方案。',
+    sub: '龙潭村守护者',
+    text: '都想看看？那我给你一条探索路线。',
+    toolResult: {
+      type: 'propose_itinerary',
+      data: {
+        guest_profile: {
+          type: '探索者',
+          key_needs: ['全面了解村落生态', '找到自己的生态位', '接触不同类型主理人', '开放式探索'],
+        },
+        recommended_spaces: [
+          {
+            space_name: '小梅桩',
+            space_slug: 'xiaomeizhuang',
+            reason: '主推 · 第一站，感受艺术气质的在地生活。梅桩主的故事是了解龙潭精神气质的最好入口。',
+          },
+          {
+            space_name: '138数字游民基地',
+            space_slug: 'dao-longtan',
+            reason: '第二站，感受数字游民社区的热闹氛围，了解云村民群体的生活方式。',
+          },
+          {
+            space_name: '金豆子',
+            space_slug: 'jindouzi',
+            reason: '第三站，漫画·深夜食堂，钢子的据点，另一种龙潭——随性、有趣、充满故事。',
+          },
+        ],
+        recommended_persons: [
+          {
+            person_name: '梅桩主',
+            person_space_slug: 'xiaomeizhuang',
+            connect_reason: '前律师出身的在地创作者，了解龙潭的人文底色。',
+          },
+          {
+            person_name: '浅予',
+            person_space_slug: 'dao-longtan',
+            connect_reason: '数字游民社区运营者，了解云村民如何在龙潭找到生态位。',
+          },
+          {
+            person_name: '钢子',
+            person_space_slug: 'jindouzi',
+            connect_reason: '金豆子主理人，漫画师+马拉松跑者+厨师，龙潭最有趣的跨界人物之一。',
+          },
+        ],
+        itinerary_outline: `第1-2天 · 小梅桩
+感受艺术气质的在地生活。与梅桩主深聊，了解龙潭的精神气质和她来这里的故事。
+
+第3天 · 138数字游民基地
+感受数字游民社区的热闹氛围。和浅予聊聊基地的生态，了解云村民如何在这里找到位置。
+
+第4天 · 金豆子
+去钢子的据点坐坐，看看他的漫画，聊聊另一种在龙潭生活的可能性。
+
+第5天 · 整合反思
+在村里随便走走，回想这几天见到的人和空间。龙潭适不适合你、你能在这里做什么——答案应该开始清晰了。`,
+        not_recommended: ['期待一次性"看完"龙潭所有东西', '走马观花式旅游'],
+      },
+    },
     choices: [
-      { label: '好，去小梅桩', next: 'route_xiaomei' },
+      { label: '去小梅桩 →', next: 'route_xiaomei' },
+      { label: '先在地图上转转', next: 'wander' },
+    ],
+  },
+
+  plan_more: {
+    speaker: 'longxun',
+    name: '龙圣子',
+    text: '村里还有金豆子（漫画·深夜食堂）、黄喆的分身蒸馏工作室、浅予的梦想版工作坊……\n\n这些今天都可以在地图上进去聊聊。\n\n不过第一站，我还是推荐小梅桩。',
+    choices: [
+      { label: '好，去小梅桩 →', next: 'route_xiaomei' },
       { label: '先在地图上转转', next: 'wander' },
     ],
   },
@@ -138,7 +418,7 @@ export const longxunScripts = {
   wander: {
     speaker: 'longxun',
     name: '龙圣子',
-    text: '不急。\n\n地图上还有些点位你可以慢慢点——廊桥、田垄、竹林、远山。需要我时，点我头顶的「！」即可。',
+    text: '不急。\n\n地图上的点位可以慢慢点——每个空间都可以进去聊聊。需要我时，点我头顶的「！」即可。',
     end: true,
   },
 };
@@ -150,9 +430,10 @@ export const xiaomeiScripts = {
     sub: '小梅桩 · 主理人',
     text: '你怎么找到这儿来的？\n\n小梅桩不挂平台，不做短视频。能进这院子的，多半是有缘。',
     choices: [
-      { label: '村管家龙圣子让我来的', next: 'from_longxun' },
-      { label: '想找个地方住几天创作', next: 'want_create' },
-      { label: '只是看看，可以参观吗？', next: 'just_look' },
+      { label: '你是怎么来龙潭的？', next: 'my_story' },
+      { label: '可以看看你的作品吗？', next: 'my_works' },
+      { label: '看看这里的空间', next: 'space_photos' },
+      { label: '想住下来', next: 'want_create' },
     ],
   },
   from_longxun: {
@@ -309,6 +590,65 @@ export const xiaomeiScripts = {
       { label: '回去想想', next: 'back_to_open' },
     ],
   },
+  /* ── 我的故事 ── */
+  my_story: {
+    speaker: 'xiaomei',
+    name: '梅桩主',
+    sub: '我的故事',
+    text: '我是上海的律师，专攻外商投资和收购兼并。做了十几年。\n\n不是不喜欢——是有一天突然算了一笔账：这份工作里，有多少时间是我真正想要的？ [c-002]\n\n2017 年辞职，2018 年跑到屏南跟林正碌学画，2019 年正式搬进龙潭。\n\n来龙潭不是为了逃城市。是因为这里有一群「来做自己」的人。 [c-001]',
+    choices: [
+      { label: '你现在过得好吗？', next: 'now_life' },
+      { label: '想看看你的作品', next: 'my_works' },
+      { label: '可以住下来吗？', next: 'want_create' },
+    ],
+  },
+
+  now_life: {
+    speaker: 'xiaomei',
+    name: '梅桩主',
+    text: '好。很好。\n\n早上五点起来，等光斜过来的时候，挤一点颜料。下午喝茶，傍晚浇花。偶尔拍片，偶尔写歌。 [c-006]\n\n钱少了，但时间是我的。',
+    choices: [
+      { label: '想看看你的作品', next: 'my_works' },
+      { label: '看看这里的空间', next: 'space_photos' },
+      { label: '想来住一段时间', next: 'want_create' },
+    ],
+  },
+
+  /* ── 我的作品（带链接） ── */
+  my_works: {
+    speaker: 'xiaomei',
+    name: '梅桩主',
+    sub: '我的作品',
+    text: '画、片子、歌，都有。\n\n电影拍了两部——《我是谁》和《我的水晶笔》，点下面可以直接看。画放在院子里和公众号上。歌是那年篝火晚会唱的，叫《风吹过的山坡上》。 [c-005][c-008]',
+    media: [
+      { type: 'video', url: 'https://mp.weixin.qq.com/s?__biz=Mzg2NDIwMTYzOQ==&mid=2247483757&idx=1&sn=f0013e5aa28be0198cdacf262b9b8b4f&chksm=cf7bb65f07b324ab724854825ece6ca3bd2587b5352c57d243c0999241cac499ae532172937b', title: '《我是谁》', year: 2021, desc: '微电影 · 点击跳转公众号' },
+      { type: 'video', url: 'https://mp.weixin.qq.com/s?__biz=Mzg2NDIwMTYzOQ==&mid=2247483748&idx=1&sn=bbd0ba387e72300fb9d272b59d8bb390&chksm=cfa4637444247b2dff48603ec3debd99d3e49cc1c8d1d9d78fa7a63af1bcfbc503efea302b74', title: '《我的水晶笔》', year: 2022, desc: '儿童微电影 · 点击跳转公众号' },
+    ],
+    choices: [
+      { label: '看看这里的空间', next: 'space_photos' },
+      { label: '我想住下来', next: 'want_create' },
+      { label: '回到开头', next: 'back_to_open' },
+    ],
+  },
+
+  /* ── 空间展示（实景照片） ── */
+  space_photos: {
+    speaker: 'xiaomei',
+    name: '梅桩主',
+    sub: '小梅桩空间',
+    text: '院子是我一点点种的，房间里的画是我画的，墙上挂的字是村里另一位写的。\n\n四间客房，两间长租给数字游民，两间不挂平台。进来慢慢看。',
+    media: [
+      { type: 'image', url: '/assets/images/spaces/xiaomeizhuang/xmz-1.jpg', title: '小梅桩院落' },
+      { type: 'image', url: '/assets/images/spaces/xiaomeizhuang/xmz-2.jpg', title: '室内空间' },
+      { type: 'image', url: '/assets/images/spaces/xiaomeizhuang/xmz-3.jpg', title: '创作角落' },
+    ],
+    choices: [
+      { label: '我想住下来', next: 'want_create' },
+      { label: '听听你的故事', next: 'my_story' },
+      { label: '回到开头', next: 'back_to_open' },
+    ],
+  },
+
   back_to_open: { next: 'open' },
   back_to_longxun: {
     speaker: 'xiaomei',
@@ -390,6 +730,7 @@ export const huangzheScripts = {
     nameSub: '分身蒸馏师',
     text: '你好！我是黄喆。\n\n你现在进入的是「分身蒸馏工作室」。\n\n我做的事情叫蒸馏——从你零散的一切里，萃取精华，最终凝结出你的数字分身。',
     choices: [
+      { label: '⚗ 直接体验蒸馏过程', next: 'experience_intro' },
       { label: '分身能做什么？', next: 'what_can_do' },
       { label: '蒸馏是怎么做的？', next: 'what_is' },
       { label: '直接问你', next: 'freeform_entry' },
@@ -485,10 +826,10 @@ export const huangzheScripts = {
     speaker: 'huangzhe',
     name: '黄喆',
     nameSub: '分身蒸馏师',
-    text: '好，我们来模拟一次完整的蒸馏过程。\n\n你来扮演一位主理人，把你手头有的素材文件拖进来——采访录音、公众号文章、朋友圈截图，任何能代表你的东西都行。\n\n真实蒸馏一小时左右就能完成。现在用几秒钟感受一下全流程。',
+    text: '好。\n\n你来扮演一位主理人，把手头的素材拖进来——采访录音、公众号文章、朋友圈截图，任何能代表你的东西都行。\n\n真实蒸馏大约一小时。现在进入体验：',
     choices: [
       { label: '进入蒸馏体验 ⚗', action: 'open_distillation_lab' },
-      { label: '先了解分身能做什么', next: 'what_can_do' },
+      { label: '先看看真实案例', next: 'cases' },
     ],
   },
   experience_done: {

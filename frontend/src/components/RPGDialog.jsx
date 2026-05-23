@@ -607,10 +607,13 @@ export default function RPGDialog({
             borderRadius: 14,
             boxShadow: '0 6px 0 var(--ink-900), 0 20px 40px rgba(27,22,18,.25)',
             padding: '18px 20px 16px',
-            display: 'grid',
-            gridTemplateColumns: '112px 1fr',
+            display: 'flex',
+            flexDirection: 'row',
+            alignItems: 'stretch',
             gap: 16,
             cursor: !done ? 'pointer' : 'default',
+            maxHeight: 'calc(82vh - 60px)',
+            overflow: 'hidden',
           }}
         >
           {/* 关闭键 */}
@@ -626,7 +629,7 @@ export default function RPGDialog({
 
           {/* 头像框 */}
           <div style={{
-            alignSelf: 'start', width: 112, height: 122,
+            flexShrink: 0, alignSelf: 'flex-start', width: 112, height: 122,
             border: '2.5px solid var(--ink-900)', borderRadius: 10,
             background: 'linear-gradient(180deg, var(--paper-50), var(--paper-200))',
             boxShadow: 'inset 0 0 0 3px var(--paper-50), 0 3px 0 var(--ink-900)',
@@ -645,9 +648,9 @@ export default function RPGDialog({
             </div>
           </div>
 
-          {/* 文本区 */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 10, minHeight: 122 }}>
-            <div className="rpg-text-scroll" style={{ maxHeight: 'min(40vh, 360px)', overflowY: 'auto', paddingRight: 6 }}>
+          {/* 文本区（统一滚动：文字+媒体+选项一起） */}
+          <div style={{ flex: 1, minWidth: 0, minHeight: 0, display: 'flex', flexDirection: 'column', gap: 10, overflowY: 'auto', paddingRight: 4 }}>
+            <div>
               <p style={{
                 fontFamily: 'var(--font-serif)', fontSize: 16, lineHeight: 1.7,
                 color: 'var(--ink-900)', margin: 0, letterSpacing: '0.02em',
