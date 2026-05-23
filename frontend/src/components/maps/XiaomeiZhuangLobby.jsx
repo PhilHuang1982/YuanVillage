@@ -140,29 +140,14 @@ export default function XiaomeiZhuangLobby({ onEnter }) {
 
         {/* 敲门按钮 */}
         {showBtn && (
-          <button
-            onClick={onEnter}
-            style={{
-              marginTop: 44,
-              padding: '13px 44px',
-              fontFamily: 'var(--font-serif, "Noto Serif SC", serif)',
-              fontSize: 15,
-              letterSpacing: '0.18em',
-              color: '#1C1410',
-              background: '#F5EFE6',
-              border: '2px solid #1C1410',
-              borderRadius: 3,
-              cursor: 'pointer',
-              boxShadow: '0 5px 0 rgba(0,0,0,0.45)',
-              animation: 'xmz-rise 0.55s cubic-bezier(.22,.68,0,1.2)',
-              userSelect: 'none',
-            }}
-            onMouseEnter={e => { e.currentTarget.style.background = '#EDE4D8'; }}
-            onMouseLeave={e => { e.currentTarget.style.background = '#F5EFE6'; e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 5px 0 rgba(0,0,0,0.45)'; }}
-            onMouseDown={e  => { e.currentTarget.style.transform = 'translateY(4px)'; e.currentTarget.style.boxShadow = '0 1px 0 rgba(0,0,0,0.45)'; }}
-            onMouseUp={e    => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 5px 0 rgba(0,0,0,0.45)'; }}
-          >
-            敲门进入 →
+          <button onClick={onEnter} className="enter-btn enter-btn--warm">
+            <span className="enter-btn__label">敲门进入</span>
+            <span className="enter-btn__arrows">
+              <span style={{ animationDelay: '0ms' }}>›</span>
+              <span style={{ animationDelay: '180ms' }}>›</span>
+              <span style={{ animationDelay: '360ms' }}>›</span>
+              <span style={{ animationDelay: '540ms' }}>›</span>
+            </span>
           </button>
         )}
       </div>
@@ -174,7 +159,50 @@ export default function XiaomeiZhuangLobby({ onEnter }) {
         }
         @keyframes xmz-rise {
           from { opacity: 0; transform: translateY(18px); }
-          to   { opacity: 1; transform: translateY(0);   }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes arrow-chase {
+          0%, 100% { opacity: 0.15; transform: translateX(0); }
+          50%       { opacity: 1;    transform: translateX(3px); }
+        }
+        .enter-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          padding: 13px 36px 13px 44px;
+          font-family: var(--font-serif, "Noto Serif SC", serif);
+          font-size: 15px;
+          letter-spacing: 0.2em;
+          border-radius: 3px;
+          cursor: pointer;
+          user-select: none;
+          animation: xmz-rise 0.55s cubic-bezier(.22,.68,0,1.2);
+          transition: box-shadow 0.15s, background 0.15s;
+        }
+        .enter-btn--warm {
+          color: #1C1410;
+          background: #F5EFE6;
+          border: 2px solid #1C1410;
+          box-shadow: 0 5px 0 rgba(0,0,0,0.45);
+        }
+        .enter-btn--warm:hover {
+          background: #EDE4D8;
+          box-shadow: 0 5px 0 rgba(0,0,0,0.45), 0 0 16px 4px rgba(245,239,230,0.3);
+        }
+        .enter-btn--warm:active {
+          transform: translateY(4px);
+          box-shadow: 0 1px 0 rgba(0,0,0,0.45);
+        }
+        .enter-btn__label { position: relative; }
+        .enter-btn__arrows {
+          display: inline-flex;
+          gap: 1px;
+          font-size: 18px;
+          line-height: 1;
+        }
+        .enter-btn__arrows span {
+          display: inline-block;
+          animation: arrow-chase 0.9s ease-in-out infinite;
         }
       `}</style>
     </div>

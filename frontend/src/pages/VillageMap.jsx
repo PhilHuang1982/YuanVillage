@@ -29,11 +29,13 @@ import SceneTransition from '../components/scene/SceneTransition.jsx';
 import RPGDialog from '../components/RPGDialog.jsx';
 import TaijiOpening from '../components/TaijiOpening.jsx';
 
-// 首次访问显示开场动画
+// 模块级标记：刷新页面时归零，React Router 导航时保留
+let _openingShown = false;
+
 function useOpeningOnce() {
-  const [show, setShow] = useState(() => !sessionStorage.getItem('taiji-done'));
+  const [show, setShow] = useState(!_openingShown);
   const done = () => {
-    sessionStorage.setItem('taiji-done', '1');
+    _openingShown = true;
     setShow(false);
   };
   return [show, done];
@@ -222,6 +224,27 @@ export default function VillageMap() {
 
       {/* ── HUD 状态栏 ── */}
       <HUD xp={xp} log={log} location="龙潭村" />
+
+      {/* ── 右下角装饰太极（顺时针） ── */}
+      <div style={{
+        position: 'absolute',
+        bottom: 20, right: 'calc(12% + 20px)',
+        zIndex: 10, pointerEvents: 'none',
+      }}>
+        <img
+          src="/assets/images/taiji.png"
+          alt="太极"
+          width="144" height="144"
+          draggable={false}
+          style={{ animation: 'map-taiji-cw 18s linear infinite', display: 'block', opacity: 0.7 }}
+        />
+        <style>{`
+          @keyframes map-taiji-cw {
+            from { transform: rotate(0deg); }
+            to   { transform: rotate(-360deg); }
+          }
+        `}</style>
+      </div>
 
       {/* ── 左下角项目标识 ── */}
       <div style={{
