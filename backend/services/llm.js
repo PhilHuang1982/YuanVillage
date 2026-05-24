@@ -76,7 +76,15 @@ export async function chat({ system, messages, maxTokens = 4096, tools, cacheMar
     messages: [{ role: 'system', content: system }, ...messages],
   };
   if (tools?.length) {
-    req.tools = tools.map(t => ({ type: 'function', function: t }));
+    // Claude format uses `input_schema`; OpenAI/DeepSeek requires `parameters`
+    req.tools = tools.map(t => ({
+      type: 'function',
+      function: {
+        name: t.name,
+        description: t.description,
+        parameters: t.parameters ?? t.input_schema,
+      },
+    }));
     req.tool_choice = 'auto';
   }
 

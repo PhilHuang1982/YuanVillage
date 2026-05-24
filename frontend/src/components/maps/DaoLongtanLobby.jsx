@@ -21,9 +21,9 @@ const ENTRY_LINES = [
   '在聊什么新鲜的事。',
 ];
 
-const CHAR_SPEED = 18;
-const LINE_PAUSE = 180;
-const BLANK_PAUSE = 100;
+const CHAR_SPEED = 10;
+const LINE_PAUSE = 80;
+const BLANK_PAUSE = 40;
 
 export default function DaoLongtanLobby({ onEnter }) {
   const [doneLines, setDoneLines] = useState([]);

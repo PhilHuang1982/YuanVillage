@@ -22,9 +22,9 @@ const ENTRY_LINES = [
   '轻轻敲了两下。',
 ];
 
-const CHAR_SPEED = 18;   // ms per character
-const LINE_PAUSE = 180;  // ms after each line
-const BLANK_PAUSE = 100; // ms for blank lines
+const CHAR_SPEED = 10;   // ms per character
+const LINE_PAUSE = 80;   // ms after each line
+const BLANK_PAUSE = 40;  // ms for blank lines
 
 export default function XiaomeiZhuangLobby({ onEnter }) {
   const [doneLines, setDoneLines]   = useState([]);

@@ -133,7 +133,7 @@ export default function VillageMap() {
           text: replyText,
           media: detectedMedia,
           toolResult: res.toolResult || null,
-          choices: [{ label: '回到主线', next: 'open' }],
+          choices: [{ label: '回到主线', next: 'ask_needs' }],
         }
       } : null);
     } catch (err) {

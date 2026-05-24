@@ -566,7 +566,7 @@ export default function RPGDialog({
   onChoose,
   onFree,
   onNavigate,
-  speed = 28,
+  speed = 12,
   accent,
   onClose,
   showChoicesEarly = false,
@@ -597,6 +597,17 @@ export default function RPGDialog({
       <div style={{ maxWidth: 920, margin: '0 auto', position: 'relative', pointerEvents: 'auto' }}>
         <NamePlate name={name} sub={nameSub} accent={resolvedAccent} />
 
+        {/* 关闭键：放在外层 wrapper，脱离主框 overflow:hidden 的裁剪 */}
+        {onClose && (
+          <button onClick={(e) => { e.stopPropagation(); onClose(); }} aria-label="关闭对话" style={{
+            all: 'unset', position: 'absolute', top: -14, right: -14,
+            cursor: 'pointer', width: 32, height: 32, borderRadius: 99,
+            background: 'var(--ink-900)', color: 'var(--paper-50)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            fontSize: 18, boxShadow: '0 3px 0 rgba(0,0,0,.3)', zIndex: 50,
+          }}>×</button>
+        )}
+
         {/* 主框 */}
         <div
           className="paper-bg no-select"
@@ -616,16 +627,6 @@ export default function RPGDialog({
             overflow: 'hidden',
           }}
         >
-          {/* 关闭键 */}
-          {onClose && (
-            <button onClick={(e) => { e.stopPropagation(); onClose(); }} aria-label="关闭对话" style={{
-              all: 'unset', position: 'absolute', top: -14, right: -14,
-              cursor: 'pointer', width: 32, height: 32, borderRadius: 99,
-              background: 'var(--ink-900)', color: 'var(--paper-50)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontSize: 18, boxShadow: '0 3px 0 rgba(0,0,0,.3)', zIndex: 2,
-            }}>×</button>
-          )}
 
           {/* 头像框 */}
           <div style={{

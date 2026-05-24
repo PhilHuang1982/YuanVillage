@@ -10,6 +10,14 @@
 import { useState, useRef, useCallback } from 'react';
 import { useEffect } from 'react';
 
+// ── 演示预填文件（模拟已上传的主理人素材）────────────────────
+const DEMO_FILES = [
+  { name: '梅桩主采访录音_20240315.mp3',    size: 28 * 1024 * 1024, icon: '🎙' },
+  { name: '小梅桩公众号文章合集.docx',       size: 142 * 1024,        icon: '📝' },
+  { name: '梅桩主朋友圈精选截图×12.jpg',     size: 3.2 * 1024 * 1024, icon: '🖼' },
+  { name: '活动介绍与日常对话记录.txt',       size: 48 * 1024,         icon: '📃' },
+];
+
 // ── 素材类型参考标签 ──────────────────────────────────────────
 const MATERIAL_TAGS = [
   '录音采访', '公众号文章', '朋友圈截图',
@@ -62,7 +70,7 @@ const PREVIEW_QA = [
 ];
 
 // ── 打字机 Hook ──────────────────────────────────────────────
-function useTypewriter(text, speed = 20) {
+function useTypewriter(text, speed = 10) {
   const [shown, setShown] = useState('');
   const ref = useRef(null);
   useEffect(() => {
@@ -82,7 +90,7 @@ function useTypewriter(text, speed = 20) {
 // ── 主组件 ──────────────────────────────────────────────────
 export default function DistillationLab({ onComplete, onClose }) {
   const [phase, setPhase]           = useState('prepare');
-  const [files, setFiles]           = useState([]);       // 已投入的文件列表
+  const [files, setFiles]           = useState(DEMO_FILES); // 预填主理人素材，演示可直接点击
   const [isDragging, setIsDragging] = useState(false);
   const [progress, setProgress]     = useState(0);
   const [stageIdx, setStageIdx]     = useState(0);
@@ -164,7 +172,7 @@ export default function DistillationLab({ onComplete, onClose }) {
   }, [phase]);
 
   const currentQA = PREVIEW_QA[qaIdx];
-  const previewAnswer = useTypewriter(showResult ? currentQA.a : '', 18);
+  const previewAnswer = useTypewriter(showResult ? currentQA.a : '', 10);
 
   return (
     <>
@@ -244,10 +252,10 @@ export default function DistillationLab({ onComplete, onClose }) {
                   ⚗ 蒸馏模拟体验
                 </div>
                 <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 20, fontWeight: 700, margin: 0, color: 'var(--ink-900)' }}>
-                  把你的素材拖进来
+                  梅桩主的素材已就位
                 </h2>
                 <p style={{ marginTop: 8, fontSize: 13, color: '#666', lineHeight: 1.6 }}>
-                  把你手头的素材文件直接拖入下方——录音、截图、文章都行。这就是真实蒸馏的第一步。
+                  下方是真实蒸馏所需的素材类型——录音、截图、文章、对话记录。已为你预加载梅桩主的部分素材，可直接点击开始蒸馏。
                 </p>
               </div>
 
@@ -287,12 +295,12 @@ export default function DistillationLab({ onComplete, onClose }) {
                   gap: 8,
                 }}
               >
-                <div style={{ fontSize: 36 }}>{isDragging ? '⚗️' : '📂'}</div>
+                <div style={{ fontSize: 36 }}>{isDragging ? '⚗️' : '➕'}</div>
                 <div style={{ fontFamily: 'var(--font-serif)', fontSize: 15, fontWeight: 700, color: 'var(--ink-900)' }}>
-                  {isDragging ? '松手，投入蒸馏釜' : '将素材文件拖到这里'}
+                  {isDragging ? '松手，投入蒸馏釜' : '继续投入更多素材（可选）'}
                 </div>
                 <div style={{ fontSize: 12, color: '#999' }}>
-                  或点击选择文件 · 录音 / 截图 / 文章 / 视频均可
+                  拖入或点击选择 · 录音 / 截图 / 文章 / 视频均可
                 </div>
               </div>
               <input

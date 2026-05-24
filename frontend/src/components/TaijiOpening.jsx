@@ -18,9 +18,9 @@ const ENTRY_LINES = [
   '城与乡融合，人与AI共生的元乡村。',
 ];
 
-const CHAR_SPEED = 40;
-const LINE_PAUSE = 260;
-const BLANK_PAUSE = 120;
+const CHAR_SPEED = 18;
+const LINE_PAUSE = 120;
+const BLANK_PAUSE = 60;
 
 export default function TaijiOpening({ onDone }) {
   const [taijiFaded, setTaijiFaded] = useState(false);

@@ -17,18 +17,47 @@
  */
 
 export const longxunScripts = {
-  /* ── 第一问：来龙潭的目的 ── */
+  /* ── 开场：村史介绍 + 直接问目的（2次点击出计划）── */
   open: {
     id: 'open',
     speaker: 'longxun',
     name: '龙圣子',
     sub: '龙潭村守护者',
-    text: '你跨过凤凰台那块龙潭里的石头，就踏入了一条我守了六百年的溪。\n\n水声不变，石板路变过几回。说吧——你来这儿，主要是为了什么？',
+    text: '你跨过凤凰台那块石头，就踏入了一条我守了六百年的溪。\n\n龙潭在福建屏南深山里。2017年前，村里大半房子空着，年轻人都走了。后来，林正碌带着「人人都是艺术家」来了，一批城里人也跟着来——律师、程序员、设计师，把行李搬进石板巷子，打算重新开始。我们叫他们新村民。\n\n说说你——来这儿，主要是为了什么？',
     choices: [
       { label: '安静创作，做自己的东西', next: 'q2_creator', hint: '创作者' },
       { label: '远程办公，找个协作社区', next: 'q2_nomad', hint: '数字游民' },
       { label: '探索村落生态，找自己的生态位', next: 'q2_explorer', hint: '潜在云村民' },
-      { label: '就随便看看', next: 'wander' },
+      { label: '这些新村民在这里做什么？', next: 'history_new_villagers' },
+    ],
+  },
+
+  /* ── 可选支线：新村民详情 ── */
+  history_new_villagers: {
+    speaker: 'longxun',
+    name: '龙圣子',
+    sub: '龙潭村守护者',
+    text: '他们各有各的来路。\n\n有人画画、写歌、种花，把律师袍换成围裙；有人搭共创社区，让数字游民短住协作；有人开漫画馆和深夜食堂，把创作和烟火气混在一起；还有人选择住在云端——不在龙潭，却通过网络成为这里的一部分。\n\n每个人都在用自己的方式回答同一个问题：乡村，可以是什么？\n\n你来这儿，主要是为了什么？',
+    choices: [
+      { label: '安静创作，做自己的东西', next: 'q2_creator', hint: '创作者' },
+      { label: '远程办公，找个协作社区', next: 'q2_nomad', hint: '数字游民' },
+      { label: '探索村落生态，找自己的生态位', next: 'q2_explorer', hint: '潜在云村民' },
+      { label: '先逛逛地图', next: 'wander' },
+    ],
+  },
+
+  /* ask_needs 保留作为自由输入后「回到主线」的落点 */
+  ask_needs: {
+    id: 'ask_needs',
+    speaker: 'longxun',
+    name: '龙圣子',
+    sub: '为你匹配',
+    text: '说说你——来这儿，主要是为了什么？',
+    choices: [
+      { label: '安静创作，做自己的东西', next: 'q2_creator', hint: '创作者' },
+      { label: '远程办公，找个协作社区', next: 'q2_nomad', hint: '数字游民' },
+      { label: '探索村落生态，找自己的生态位', next: 'q2_explorer', hint: '潜在云村民' },
+      { label: '先逛逛地图', next: 'wander' },
     ],
   },
 
